@@ -1,0 +1,160 @@
+.job-card-container {
+  background-color: #272727;
+  border-radius: 15px;
+  padding: 25px 22px;
+  margin-bottom: 20px;
+}
+
+.company-logo-star-rating {
+  display: flex;
+}
+
+.company-logo-image {
+  width: 56px;
+  height: 58px;
+  margin-right: 15px;
+}
+
+.title-star-rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.company-title {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+
+.company-rating {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.location-employment-package-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.location-employment {
+  display: flex;
+}
+
+.icon-details {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.star-icon {
+  font-size: 20px;
+  color: #fbbf24;
+  margin-right: 6px;
+}
+
+.company-details-icon {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 7px;
+}
+
+.icon-detail-label {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+.package {
+  color: #f1f5f9;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.hr-line-3 {
+  border: 0px;
+  height: 1.8px;
+  flex-shrink: 0;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  background-color: #64748b;
+}
+
+.company-description-heading {
+  font-size: 18px;
+  color: #f1f5f9;
+  font-weight: 500;
+}
+
+.company-description {
+  color: #f1f5f9;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 767px) {
+  .job-card-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .company-logo-image {
+    width: 42px;
+    height: 45px;
+    margin-right: 10px;
+  }
+
+  .company-title {
+    font-size: 16px;
+  }
+
+  .star-icon {
+    font-size: 16px;
+    margin-right: 3px;
+  }
+
+  .company-rating {
+    font-size: 14px;
+  }
+
+  .location-employment-package-container {
+    margin-top: 8px;
+  }
+
+  .company-details-icon {
+    font-size: 16px;
+    margin-right: 4px;
+  }
+
+  .icon-detail-label {
+    font-size: 13px;
+  }
+
+  .icon-details {
+    margin-right: 16px;
+  }
+
+  .package {
+    font-size: 14px;
+  }
+
+  .company-description-heading {
+    font-size: 15px;
+    margin-bottom: 14px;
+  }
+
+  .company-description {
+    font-size: 13px;
+    margin-top: 0px;
+  }
+}

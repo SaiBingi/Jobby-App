@@ -1,0 +1,321 @@
+.bg-jobs-container {
+  display: flex;
+  background-color: #121212;
+  font-family: 'Roboto';
+  padding: 35px 50px;
+  min-height: 89vh;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.filter-section-container {
+  width: 30%;
+  margin-right: 30px;
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 30px 15px;
+  border-radius: 30px;
+  height: 200px;
+}
+
+.profile {
+  width: 60px;
+}
+
+.profile-name {
+  margin-top: 4px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #6366f1;
+  margin-bottom: 20px;
+}
+
+.profile-bio {
+  color: #475569;
+}
+
+.error-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.loader-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.retry {
+  border: none;
+  background-color: #6366f1;
+  padding: 11px 29px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.hr-line {
+  border: 0px;
+  height: 1.8px;
+  flex-shrink: 0;
+  margin-top: 28px;
+  background-color: #64748b;
+}
+
+.jobs-section-container {
+  width: 70%;
+}
+
+.input-container-desktop {
+  border: 1px solid #475569;
+  padding-left: 14px;
+  height: 38px;
+  border-radius: 4px;
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.search-input {
+  outline: none;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: transparent;
+  margin-right: auto;
+  width: 85%;
+  color: #cbd5e1;
+}
+
+.search-button {
+  background-color: #272727;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+.search-icon {
+  font-size: 17px;
+  color: #cbd5e1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.failure-view {
+  max-width: 450px;
+  max-height: 320px;
+}
+
+.title {
+  color: red;
+}
+
+.error-message {
+  color: #f8fafc;
+  font-size: 34px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.error-message-description {
+  color: #cbd5e1;
+  margin-top: 8px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.error-jobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.loader-jobs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.input-container-mobile {
+  display: none;
+}
+
+.job-cards-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.employment-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.salary-range-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-jobs-container {
+    flex-direction: column;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .profile-container {
+    border-radius: 12px;
+    height: 170px;
+  }
+
+  .hr-line {
+    margin-top: 18px;
+  }
+
+  .profile {
+    width: 40px;
+  }
+
+  .profile-name {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .profile-bio {
+    font-size: 14px;
+  }
+
+  .filter-section-container {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .jobs-section-container {
+    margin-top: 11px;
+    width: 100%;
+  }
+
+  .input-container-mobile {
+    border: 1px solid #475569;
+    padding-left: 12px;
+    height: 30px;
+    border-radius: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  .input-container-desktop {
+    display: none;
+  }
+
+  .failure-view {
+    width: 85%;
+  }
+
+  .error-message {
+    font-size: 17px;
+    margin-top: 24px;
+  }
+
+  .error-message-description {
+    line-height: 1.8;
+    margin: 0px;
+    width: 80%;
+  }
+
+  .retry {
+    padding: 9px 27px;
+  }
+}
+
+.filter-section-heading {
+  color: #f1f5f9;
+  font-size: 17px;
+  margin-top: 28px;
+  margin-bottom: 23px;
+  font-weight: 500;
+}
+
+.checkbox-radio-container {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  border: 0px;
+  margin-right: auto;
+  margin-bottom: 14px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  margin: 0px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+
+.checkbox-radio-label {
+  color: #cbd5e1;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.hr-line-2 {
+  border: 0px;
+  height: 1.8px;
+  flex-shrink: 0;
+  margin-top: 20px;
+  background-color: #64748b;
+}
+
+.radio {
+  width: 16px;
+  height: 16px;
+  margin: 0px;
+  margin-right: 11px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .filter-section-heading {
+    margin-top: 20px;
+    margin-bottom: 17px;
+    font-size: 15px;
+  }
+
+  .checkbox {
+    width: 14px;
+    height: 14px;
+    margin-right: 9px;
+  }
+
+  .radio {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+  }
+
+  .checkbox-radio-label {
+    font-size: 14px;
+  }
+}
